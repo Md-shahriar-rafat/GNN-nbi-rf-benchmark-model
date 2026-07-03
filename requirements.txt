@@ -1,0 +1,17 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# Graph neural network stack (heterogeneous GraphSAGE)
+# IMPORTANT: torch-geometric must match your installed torch / CUDA build.
+# Install torch first, then torch-geometric per the official instructions:
+#   https://pytorch.org/get-started/locally/
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+torch
+torch-geometric
+
+# Optional: only needed for the Graphviz variant of Fig 1 in make_figures.py
+# graphviz
